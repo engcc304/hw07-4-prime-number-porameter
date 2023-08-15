@@ -27,10 +27,11 @@ int is_prime(int num) {
         }
     }
     return 1; // Prime
-}
+}//end int
 
 int main() {
-    int endNumber;
+    int endNumber ;
+    
     printf( "Enter number: ") ;
     scanf( "%d", &endNumber) ;
 
@@ -40,11 +41,11 @@ int main() {
     do {
         if (is_prime(currentNumber)) {
             printf( "%d ", currentNumber) ; 
-        }
+        }//end if
         currentNumber-- ;
     } while (currentNumber >= 2) ;
 
     printf( "\n") ;
 
-    return 0;
-}
+    return 0 ;
+}//end main fuction
